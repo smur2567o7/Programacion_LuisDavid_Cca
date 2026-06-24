@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+		Escribir "Contidad de terminos a mostrar "
+		Leer lim
+		a = 0
+		b = 1
+		c = 1
+		Escribir "Serie de Fibonacci"
+		Mientras c <= lim Hacer
+			Escribir a
+			t = a + b
+			a = b
+			b = t
+			c = c + 1
+		FinMientras
+FinAlgoritmo

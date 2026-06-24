@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+		i = 1234
+		intentos = 1
+		
+		Escribir "ingrese la clave de la caja fuerte"
+		Leer x
+		
+		Mientras x <> i Y intentos < 3 Hacer
+			Escribir "Clave incorrecta, le quedan ", 3 - intentos, " intentos"
+			Escribir "Intente de nuevo"
+			Leer x
+			intentos = intentos + 1
+		FinMientras
+		
+		Si x = i Entonces
+			Escribir "Caja fuerte abierta"
+		Sino
+			Escribir "Acceso denegado"
+		FinSi
+FinAlgoritmo

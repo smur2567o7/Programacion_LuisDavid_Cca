@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+		Mientras i <= 10 Hacer
+			Escribir "Introduce el número ", i, ":"
+			Leer n
+			Si n > 0 Entonces
+				cposi = cposi + 1
+			Sino
+				Si n < 0 Entonces
+					cnega = cnega + 1
+				Sino
+					c0 = c0 + 1
+				FinSi
+			FinSi
+			i = i + 1
+		FinMientras
+		Escribir "Positivos " cposi
+		Escribir "Negativos " cnega
+		Escribir "Ceros " c0
+FinAlgoritmo

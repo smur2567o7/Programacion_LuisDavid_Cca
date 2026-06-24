@@ -1,0 +1,21 @@
+Algoritmo sin_titulo
+		tb = 0
+		cv = 0
+		i ="S"
+		
+		Mientras i = "S" O i = "s" Hacer
+			Escribir "Ingrese el precio del producto:"
+			Leer p
+			Escribir "Ingrese la cantidad vendida:"
+			Leer ca
+			
+			tb = tb + (p * ca)
+			cv = cv + 1
+			
+			Escribir "¿Desea registrar otra venta? (S/N)"
+			Leer i
+		FinMientras
+		
+		Escribir "Total bruto recaudado: ", tb
+		Escribir "Número de ventas realizadas: ", cv
+FinAlgoritmo

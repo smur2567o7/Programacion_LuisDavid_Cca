@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+		i =1234
+		Escribir "Ingrese la clave de la caja fuerte"
+		Leer c
+		
+		Mientras c <> i Hacer
+			Escribir "Clave incorrecta intente de nuevo"
+			Leer c
+		FinMientras
+		
+		Escribir "Caja fuerte abierta"
+FinAlgoritmo

@@ -1,0 +1,22 @@
+Algoritmo sin_titulo		
+		Escribir "Ingrese la nota"
+		Leer i
+		
+		Mientras i <> -1 Hacer
+			Si i >= 0 Entonces 
+				suma= suma+i
+				ialumnos = ialumnos + 1
+			Sino
+				Escribir "Nota no válida."
+			FinSi
+			
+			Escribir "Ingrese la siguiente nota"
+			Leer i
+		FinMientras
+		Si ialumnos > 0 Entonces
+			promedio = suma / ialumnos
+			Escribir "El promedio general del curso es " promedio
+		Sino
+			Escribir "No se pusieron notas para calcular el promedio"
+		FinSi
+FinAlgoritmo

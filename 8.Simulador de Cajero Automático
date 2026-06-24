@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+		i <- 2000
+		op <- 1
+		Mientras i > 0 Y op = 1 Hacer
+			Escribir "Tu saldo actual es: ", i, " Bs."
+			Escribir "Monto a retirar "
+			Leer r
+			Si r <= i Entonces
+				i = i - r
+				Escribir "Retiro exitoso."
+			Sino
+				Escribir "Saldo insuficiente. No puedes retirar mas de ", i, " Bs."
+			FinSi
+			Si i > 0 Entonces
+				Escribir "deseas realizar otro retiro? (1: Si / 0: No)"
+				Leer op
+			Sino
+				Escribir "Te has quedado sin saldo"
+			FinSi
+		FinMientras
+		Escribir "Operacion finalizada. Saldo restante: ", i, " Bs."
+FinAlgoritmo

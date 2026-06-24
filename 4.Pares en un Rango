@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+		Escribir "Ingrese el limite inferior"
+		Leer limInf
+		Escribir "Ingrese el limite superior"
+		Leer limSup
+		
+		i = limInf
+		Escribir "Los numeros pares en el rango son"
+		
+		Mientras i <= limSup Hacer
+			Si i MOD 2 = 0 Entonces
+				Escribir i
+			FinSi
+			 i = i + 1
+		FinMientras
+FinAlgoritmo
+
